@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bin/Documents/felix/fcm.net/Fcm/Fcm.csproj": {}
+    "/home/binwan/Documents/binwan/fcm.net/Fcm/Fcm.csproj": {}
   },
   "projects": {
-    "/Users/bin/Documents/felix/fcm.net/Fcm/Fcm.csproj": {
+    "/home/binwan/Documents/binwan/fcm.net/Fcm/Fcm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bin/Documents/felix/fcm.net/Fcm/Fcm.csproj",
+        "projectUniqueName": "/home/binwan/Documents/binwan/fcm.net/Fcm/Fcm.csproj",
         "projectName": "Fcm",
-        "projectPath": "/Users/bin/Documents/felix/fcm.net/Fcm/Fcm.csproj",
-        "packagesPath": "/Users/bin/.nuget/packages/",
-        "outputPath": "/Users/bin/Documents/felix/fcm.net/Fcm/obj/",
+        "projectPath": "/home/binwan/Documents/binwan/fcm.net/Fcm/Fcm.csproj",
+        "packagesPath": "/home/binwan/.nuget/packages/",
+        "outputPath": "/home/binwan/Documents/binwan/fcm.net/Fcm/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bin/.nuget/NuGet/NuGet.Config"
+          "/home/binwan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "http://nuget.fnlinker.com/v3/index.xml": {},
-          "https://nuget.cdn.azure.cn/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -42,6 +41,14 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -54,7 +61,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.409/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.116/RuntimeIdentifierGraph.json"
         }
       }
     }

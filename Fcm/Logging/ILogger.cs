@@ -10,6 +10,8 @@ namespace Fcm.Logging
 
         void Warning(string msg, params object[] args);
 
+        void Error(string msg, params object[] args);
+
         void Error(Exception ex, string msg, params object[] args);
     }
 }
